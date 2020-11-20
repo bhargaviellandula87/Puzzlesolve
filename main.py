@@ -5,9 +5,9 @@ from solver import Solver
 def getSelectedAction():
     selectedAction = 0
     while selectedAction != "2" and selectedAction != "1":
-        selectedAction =  input("Select an action"
+        selectedAction =  input("Select action"
                   "\n1. Select a puzzle to solve"
-                  "\n2. Exit the program\n")
+                  "\n2. Exit \n")
     return selectedAction
 
 
@@ -31,4 +31,4 @@ while (action != "2"):
     print("\n")
     action = getSelectedAction()
 
-print("GoodBye!")
+print("Bye")
